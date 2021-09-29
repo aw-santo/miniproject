@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Crazy Travelous</title>
+
+    <!-- font awesome cdn file link  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> 
+
+    <style type="text/css">
+        .img-jmbo{
+        background-image:  url(https://images.pexels.com/photos/1287452/pexels-photo-1287452.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-size: 100%;
+        background-image: fixed;
+        }
+        .inner{
+          overflow: hidden;
+        }
+        .inner img{
+          transition: 1.5s ease;
+        }
+        .inner:hover img{
+          transform: scale(1.5);
+        }
+    
+      </style>
+    
+
+
+
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+<a href="#" class="logo">Crazy Travelous</a>
+
+<nav class="navbar">
+    <ul>
+        <li><a data-scroll="home" href="#home" class="active">home</a></li>
+        <li><a data-scroll="feature" href="#feature">feature</a></li>
+        <li><a data-scroll="about" href="#about">about</a></li>
+        <li><a data-scroll="gallery" href="#gallery">gallery</a></li>
+        <li><a data-scroll="guide" href="#guide">Our Guides</a></li>
+        <li><a data-scroll="review" href="#review">review</a></li>
+        <li><a data-scroll="contact" href="#contact">contact</a></li>
+
+
+    </ul>
+</nav>
+
+<div class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<div class="video">
+    <video src="images/video.mp4" loop muted autoplay></video>
+</div>
+
+<div class="content">
+    <h1>explore new places, <br> adventure awaits.</h1>
+    <p>We travel not to escape life, but for life not to escape us!</p>
+</div>
+
+<!-- <div class="form-container">
+    <form action="">
+
+        <h3>search your destination</h3>
+
+        <span>location</span>
+        <input type="text" placeholder="place you want to visit">
+
+        <span>guest members</span>
+        <input type="number" placeholder="number of peoples">
+
+        <span>arrival</span>
+        <input type="date">
+
+        <span>leaving</span>
+        <input type="date">
+
+        <input type="submit" value="search">
+
+    </form>
+</div> -->
+
+</section>
+
+<!-- home section ends -->
+
+<!-- feature section starts  -->
+
+<section class="feature" id="feature">
+
+<h1 class="heading"><span>f</span>eatured <span>l</span>ocations</h1>
+
+<div class="card-container">
+
+    <div class="card">
+        <span class="discount">-35%</span>
+        <img src="https://cdn.pixabay.com/photo/2016/08/30/12/13/beach-1630540__340.jpg" alt="">
+        <div class="content">
+            <h3 class="title">hawaii</h3>
+            <p> Hawaii is a magical and cool place ever in a summertime. Honestly, if you are looking for the best place of beach, sand with lots of fun, then nothing like Hawaii..!  </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="hawai.html"><button class="btn">check out!</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/08/24/05/21/pyramid-2675466__340.jpg" alt="">
+        <div class="content">
+            <h3 class="title">egypt</h3>
+            <p> Egypt is not a country we live in but a country that lives within us.The night sky in Egypt is a swirling mass of stars.. An awesome place </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#"><button class="btn">check out!</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="discount">-45%</span>
+        <img src="https://cdn.pixabay.com/photo/2017/10/08/17/45/india-2830745__340.jpg" alt="">
+        <div class="content">
+            <h3 class="title">india</h3>
+            <p>There are three trips you take to India: the one you think you’re going to have – that you plan for; the one you actually have.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="india.html"><button class="btn">check out!</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2013/04/13/18/42/tower-103417_1280.jpg" alt="">
+        <div class="content">
+            <h3 class="title">Paris</h3>
+            <p>The City of Love!!
+             Wanna have the best macroni in the world.Eiffel tower is not only a common city icon but also becomes symbol of love. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="paris.html"><button class="btn">check out!</button></a>
+        </div>
+    </div>
+    <div class="card">
+        <span class="discount">-25%</span>
+        <img src="https://cdn.pixabay.com/photo/2016/07/21/10/27/maldives-1532170_1280.jpg" alt="">
+        <div class="content">
+            <h3 class="title">Maldives</h3>
+            <p> The Maldive Islands are a series of coral atolls built up from the crowns of a submerged ancient volcanic mountain range.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="maldives.html"><button class="btn">check out!</button></a>
+        </div>
+    </div>
+    <div class="card">
+        <span class="discount">-15%</span>
+        <img src="https://cdn.pixabay.com/photo/2017/02/11/12/14/dubai-2057583_1280.jpg" alt="">
+        <div class="content">
+            <h3 class="title">Dubai</h3>
+            <p> Here is the most populous city in the United Arab Emirates and the capital of the Emirate of Dubai.  </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="dubai.html"><button class="btn">check out!</button></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- feature section ends -->
+
+<!-- about section starts  -->
+
+
+<section id="about" class="about">
+
+<h1 class="heading"><span>a</span>bout <span>u</span>s</h1>
+
+<div class="row">
+
+    <div class="image">
+        <img src="https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731__340.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p>We're here to take the stress out of the holiday planning process. You can be as involved as you want, and you are always in control. Everything is tailored to your exact needs and tastes, and we will keep tweaking and adapting until it feels just right</p></p><br>
+        <p></p>
+        <a href="#"><button class="btn btn1">read more</button></a>
+        <a href="#"><button class="btn">get started</button></a>
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- about section ends -->
+
+<!-- gallery section starts  -->
+
+<section id="gallery" class="gallery">
+
+<h1 class="heading"><span>g</span>allery</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/img1.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img2.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img3.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="https://cdn.pixabay.com/photo/2016/10/18/08/13/travel-1749508__340.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="https://cdn.pixabay.com/photo/2017/08/07/10/05/neuschwanstein-2602208_1280.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-search"></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+
+<!-- Guide section starts -->
+<section id="guide" class="guide">
+
+<h1 class="heading"><span>O</span>ur <span>G</span>uides</h1>
+
+    <div class="container">
+        
+        <div class="row">
+          <div class="card-deck ">
+      
+        <div class="card">
+          <img src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+          <div class="p-3 mb-2 bg-dark text-white">
+          <div class="card-body">
+      
+            <h5 class="card-title">Giteshwari Shinde</h5>
+            
+            <p class="card-text">Here is our best guide to your service. Giteshwari has a lot experince in this field she has arranged minimum of 300 travel trips and still working.She knows 5-6 languages and has a great tourist response every Year.
+              contact no. 9839758339 </p>
+              <p class="card-text">  email me on. giteshwaris@gmail.com
+              </p>
+            <p class="card-text"><small class="text-muted">Italy Tour</small></p>
+            
+          </div>
+          </div>
+        </div>
+      
+      
+        <div class="card">
+          <img src="https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+          <div class="p-3 mb-2 bg-warning text-dark">
+          <div class="card-body">
+            <h5 class="card-title">Sanika Vyavahare</h5>
+            <p class="card-text">Here is our best guide to your service. Giteshwari has a lot experince in this field she has arranged minimum of 300 travel trips and still working.She knows 5-6 languages and has a great tourist response every Year.
+              contact no. 7384928023 </p>
+      
+            <p class="card-text">  email me on. sanikav@gmail.com
+            </p>
+           
+            <p class="card-text"><small class="text-muted">Maldive Tour</small></p>
+          </div>
+          </div>
+        </div>
+      
+      
+        <div class="card">
+          <img src="https://images.pexels.com/photos/2065725/pexels-photo-2065725.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+          <div class="p-3 mb-2 bg-danger text-white">
+          <div class="card-body">
+      
+            <h5 class="card-title">Rasika Velapure</h5>
+            <p class="card-text">Here is our best guide to your service. Giteshwari has a lot experince in this field she has arranged minimum of 300 travel trips and still working.She knows 5-6 languages and has a great tourist response every Year.
+              contact no. 9340937593 </p>
+              <p class="card-text">  email me on. rasikav@gmail.com
+              </p>
+            <p class="card-text"><small class="text-muted">Paris Tour</small></p>
+      
+          </div>
+        </div>
+         </div>
+       </div>
+        </div>
+      </div>
+      
+
+    
+    
+    </section>
+
+
+
+
+
+
+<!-- Guide section ends-->
+
+
+
+
+
+
+<!-- review section starts  -->
+
+<section id="review" class="review">
+
+<h1 class="heading"><span>r</span>eview</h1>
+
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="https://media.istockphoto.com/photos/successful-casual-business-woman-smiling-picture-id1244524447?b=1&k=6&m=1244524447&s=170667a&w=0&h=Vd7UVwe059IpNxJ1IIW-6AhVN-Ymb4-aVAaVXzp4JPY=" alt="">
+        </div>
+        <div class="content">
+            <h3>Sanjana Jhaveri</h3>
+            <p>The trip was amazing, a once in a lifetime opportunity and trip. My sister and I spent 16 days in Italy for her high school graduation trip, and we had an unparalleled experience.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="https://cdn.pixabay.com/photo/2017/04/28/21/35/stylish-boy-2269508__340.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Shravan Mohite</h3>
+            <p>Our trip to New Zealand and Australia was well planned and our travel designer provided guidance and insights that led us to places we would not have discovered on our own.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="https://media.istockphoto.com/photos/see-no-good-reason-to-act-my-age-picture-id517234226?k=6&m=517234226&s=612x612&w=0&h=WBbmb1BewmYvjN7Gj8QqTYLr0qq_cUDqEgnoUaEO3W4=" alt="">
+        </div>
+        <div class="content">
+            <h3>Alias Copper</h3>
+            <p>My trip to India was great and indulging just because of Crazy Travelous.I am giving 5 out of 5 stars for this amazing trip.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section id="contact" class="contact">
+
+<h1 class="heading"><span>c</span>ontact <span>u</span>s</h1>
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.960043043403!2d72.85186461442511!3d19.109408755888396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8348740e791%3A0xe302e2dd9ab8bae2!2sTravels%20Booking%20Office!5e0!3m2!1sen!2sin!4v1609421049401!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0; outline:none;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.465570123958!2d75.3104424139065!3d17.67545339908747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc41823e0554f45%3A0xf72c6d55f122e450!2sLink%20Rd%2C%20Pandharpur%2C%20Maharashtra%20413304!5e0!3m2!1sen!2sin!4v1624458096261!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0; outline:none;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+<div class="row">
+
+<div class="contact-info">
+
+    <div class="box">
+        <h3> <i class="fas fa-home"></i> Address </h3>
+        <p>Link Road,pandharpur, <br>
+        maharashtra,<br>
+        413304.</p>
+    </div>
+
+    <div class="box">
+        <h3> <i class="fas fa-envelope"></i> E-mail </h3>
+        <p>crazytrvelous@gmail.com</p>
+    </div>
+
+    <div class="box">
+        <h3> <i class="fas fa-phone"></i> Phone </h3>
+        <p>+123 4567 890</p>
+    </div>
+
+</div>
+
+<div class="contact-form-container">
+
+    <form action="travel.php" method="post">
+
+        <h3>get in touch</h3>
+
+        <div class="inputBox">
+            <input type="text" name="name" placeholder="full name">
+            <input type="email" name="email" placeholder="e-mail">
+        </div>
+
+        <textarea name="msg" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+        <input type="submit" value="message" name="submit">
+
+    </form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<section class="newsletter">
+
+<h1>sign up 25% discount</h1>
+
+<p>Sign up and get exciting offers, blockbuster plans,fascinating adventures with our amzaing guides</p>
+
+
+
+<a href="sign1.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Register</a>
+<a href="login1.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Log In</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section class="footer">
+
+<h1 class="credit">created by <span>Crazy Travelous</span> | all rights reserved.</h1>
+
+<div class="icons">
+    <a href="https://www.facebook.com/snehalohokare19" target="_blank" class="fab fa-facebook-f"></a>
+    <a href="https://twitter.com/RasikaVelapure?s=09" target="_blank" class="fab fa-twitter"></a>
+    <a href="https://www.instagram.com/giteshwarishinde" target="_blank" class="fab fa-instagram"></a>
+    <a href="https://github.com/Sanika2720" target="_blank" class="fab fa-github"></a>
+    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" class="fab fa-linkedin"></a>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/main.js"></script>
+
+
+    
+</body>
+</html>
